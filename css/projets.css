@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+*{
+    color: white;
+background-color: #0B162C;
+}
+* :not(i){
+    font-family: "Fredoka", sans-serif;
+
+}
+h1 {
+    margin: 0; 
+    padding: 0; 
+    text-align: center; 
+    color: #e5e7eb; 
+    font-size: 2.5em; 
+}
+.top{
+    display: flex;
+    padding-left: 1%;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #0B162C;
+}
+i{
+    margin-right: 12px;
+}
+#titre{
+    background-color:  #1C2942;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 32px ;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    width: 100%;
+}
+p#titre{
+    margin-top: 0pc;
+    margin-bottom: 0pc;
+}
+.nav2{
+    display: flex;
+    justify-content: center;
+    background-color: #3B556D;
+    overflow: hidden;
+    transition: width 0.3s ease;
+
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    background-color: #3B556D;
+    list-style: none;
+    padding: 0 20px 0 20px;
+    margin-top: 20px;
+}
+nav li{
+    background-color: #3B556D;
+}
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 24px ;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+    background-color: #3B556D;
+}
+nav ul li a.active,
+nav ul li a:hover {
+    background-color: #5FC2BA;
+    opacity: 0.4;
+}
