@@ -73,3 +73,24 @@ nav ul li a:hover {
     background-color: #5FC2BA;
     opacity: 0.4;
 }
+img{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    display: flex;
+    text-align: center;
+}
+
+main{
+    padding-top: 20px;
+    padding-left: 30%;
+    padding-right: 30%
+}
