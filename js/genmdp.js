@@ -37,7 +37,6 @@ function GenMdp(){
             motDePasse += currentPool[Math.floor(Math.random() * currentPool.length)];
         }
 
-        // 🔥 Ajout dans le DOM avec une icône de copier
         let board = document.getElementById("board");
 
         let container = document.createElement("div");
@@ -46,7 +45,6 @@ function GenMdp(){
         let span = document.createElement("span");
         span.textContent = motDePasse;
 
-        // Création du bouton avec l'icône SVG
         let button = document.createElement("button");
         button.classList.add("copy-btn");
         button.innerHTML = `
