@@ -1,7 +1,3 @@
-Voici une version plus élégante, aérée et structurée de ton texte pour le **Portfolio de Lilian VALDENAIRE**, avec une mise en page moderne, claire et professionnelle :
-
----
-
 # 🌐 **Portfolio de Lilian VALDENAIRE**
 
 ## 🎯 **Objectifs du Portfolio**
