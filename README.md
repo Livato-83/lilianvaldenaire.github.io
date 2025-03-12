@@ -55,5 +55,3 @@
 - Un outil de **référencement personnel** sur les moteurs de recherche
 
 ---
-
-Si tu veux, je peux aussi te proposer une version HTML/CSS prête à intégrer dans ton site. Tu veux que je te la fasse ? 😊
