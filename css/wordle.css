@@ -73,15 +73,13 @@ nav ul li a:hover {
     background-color: #5FC2BA;
     opacity: 0.4;
 }
-
 main {
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 20px;
+    padding-top: 20px;
 }
-
 #board {
     display: grid;
     grid-template-columns: repeat(5, 40px);
@@ -89,7 +87,6 @@ main {
     justify-content: center;
     margin: 20px 0;
 }
-
 .cell {
     width: 40px;
     height: 40px;
@@ -105,19 +102,15 @@ main {
     transition: background-color 0.3s ease;
     border-radius: 10px;
 }
-
 .correct {
     background-color: #48af18;
 }
-
 .present {
     background-color: #ebb042;
 }
-
 .absent {
     background-color: #252627;
 }
-
 input[type="text"] {
     width: 200px;
     padding: 10px;
@@ -131,13 +124,11 @@ input[type="text"] {
     color: #0B162C;
     text-transform: uppercase;
 }
-
 input[type="file"] {
     margin: 20px 0;
     border-radius: 10px;
     color: #0B162C;
 }
-
 button {
     padding: 10px 20px;
     font-size: 16px;
@@ -149,11 +140,9 @@ button {
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
-
 button:hover {
     background-color: #555;
 }
-
 #message {
     margin: 10px 0;
     font-size: 18px;
@@ -167,7 +156,6 @@ button:hover {
     padding: 2rem;
     text-align: center;
 }
-
 #wordle-container input[type="file"],
 #wordle-container input[type="text"],
 #wordle-container button {
@@ -177,11 +165,9 @@ button:hover {
     border-radius: 8px;
     border: none;
 }
-
 #wordle-container input[type="text"] {
     width: 250px;
 }
-
 #wordle-container button {
     background-color: #3e3e3e;
     color: white;
@@ -190,30 +176,4 @@ button:hover {
 }
 #wordle-container button:hover {
     background-color: #5a5a5a;
-}
-
-/* Responsive */
-@media (max-width: 1024px) {
-    .nav2 {
-        margin: 0 21%;
-    }
-    nav ul li a {
-        font-size: 20px;
-    }
-}
-@media (max-width: 768px) {
-    .nav2 {
-        margin: 0 10%;
-    }
-}
-@media (max-width: 425px) {
-    #titre {
-        font-size: 20px;
-    }
-    .nav2 {
-        margin: 0 5%;
-    }
-    nav ul li a {
-        font-size: 11px;
-    }
 }

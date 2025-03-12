@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="Portfolio de Lilian VALDENAIRE - BTS SIO SLAM">
+        <meta name="author" content="Lilian VALDENAIRE">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <title>Générateur de mots de passes</title>
+        <link rel="icon" href="favicon.ico">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/genmdp.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="top">
+            lvaldenaire.fr
+        </div>
+        <header>
+            <nav class="nav1">
+                <p id="titre">Bienvenue sur mon site web</p>
+            </nav>
+        </header>
+        <nav class="nav2">
+            <ul>
+                <li><a href="../index.html" >Accueil</a></li>
+                <li><a href="../pages/projets.html">Projets</a></li>
+                <li><a href="../pages/cv.html">CV</a></li>
+                <li><a href="../pages/genmdp.html" class="active">Générateur de mots de passes</a></li>
+                <li><a href="../pages/contact.html">Contacts</a></li>
+            </ul>
+        </nav>
+        <section id="princ">
+            <main>
+                <form id="formulaire">
+                    <p id="p-form">(Les valeurs sont d'origine sur "oui")</p>
+                    <div class="form-group">
+                        <label>Nombre de caractères</label>
+                        <input type="number" id="carac" min="8" max="50" placeholder="8">
+                    </div>
+                    <div class="form-group">
+                        <label>Voulez-vous des majuscules ?</label>
+                        <label class="switch">
+                            <input type="checkbox" checked="" id="majs">
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label>Voulez-vous des minuscules ?</label>
+                        <label class="switch">
+                            <input type="checkbox" checked="" id="minus">
+                        </label>                
+                    </div>
+                    <div class="form-group">
+                        <label>Voulez-vous des chiffres ?</label>
+                        <label class="switch">
+                            <input type="checkbox" checked=""  id="numbers">
+                        </label>                   
+                    </div>
+                    <div class="form-group">
+                        <label>Voulez-vous des caractères spéciaux ?</label>
+                        <label class="switch">
+                            <input type="checkbox" checked="" id="caracSpe">
+                        </label>                    
+                    </div>
+                    <!-- <div class="div-strong-bar">
+                        <label id="strong-bar">Dureté du mot de passe généré:</label>
+                    </div>
+                    <span>
+                        a
+                        <div class="box-strong-bar"></div>
+                        <div class="box-strong-bar"></div>
+                        <div class="box-strong-bar"></div>
+                        <div class="box-strong-bar"></div>
+                    </span> -->
+                    <button type="button" onclick="GenMdp()" id="btnGen">Générer un mot de passe</button>
+                    <span class="response">
+                        <h6>Mots de passe générés :</h6>
+                        <div id="board"></div>
+                    </span>
+                </form>
+            </main>
+        </section>
+        <script src="../js/genmdp.js"></script>
+    </body>  
+</html>

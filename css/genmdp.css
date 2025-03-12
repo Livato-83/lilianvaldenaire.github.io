@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+*{
+    color: white;
+    background-color: #0B162C;
+}
+* :not(i){
+    font-family: "Fredoka", sans-serif; 
+}
+
+h1 {
+    margin: 0; 
+    padding: 0; 
+    text-align: center; 
+    color: #e5e7eb; 
+    font-size: 2.5em; 
+}
+.top{
+    display: flex;
+    padding-left: 1%;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #0B162C;
+}
+i{
+    margin-right: 12px;
+}
+#titre{
+    background-color:  #1C2942;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 32px ;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    width: 100%;
+}
+p#titre{
+    margin-top: 0pc;
+    margin-bottom: 0pc;
+}
+.nav2{
+    display: flex;
+    justify-content: center;
+    background-color: #3B556D;
+    overflow: hidden;
+    transition: width 0.3s ease;
+
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    background-color: #3B556D;
+    list-style: none;
+    padding: 0 20px 0 20px;
+    margin-top: 20px;
+}
+nav li{
+    background-color: #3B556D;
+}
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 24px ;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+    background-color: #3B556D;
+}
+nav ul li a.active,
+nav ul li a:hover {
+    background-color: #5FC2BA;
+    opacity: 0.4;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff; 
+    border-radius: 20px; 
+    width: 80%;
+    max-width: 900px;
+    padding-bottom: 15px;
+} 
+form{
+    background-color: white;
+}
+#p-form{
+    color: black;
+    background-color: white;
+}
+#princ{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+#formulaire{
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+input{
+    background-color: #ffffff;
+    color: black;
+}
+
+.form-group, label{
+    background-color: #ffffff;
+    color: black;
+    padding: 5px;
+}
+
+.switch {
+    --false: #E81B1B;
+    --true: #009068;
+}
+
+input[type=checkbox] {
+    appearance: none;
+    height: 15px;
+    width:30px;
+    background-color: #000000;
+    position: relative;
+    border-radius: .2em;
+    cursor: pointer;
+}
+
+input[type=checkbox]::before {
+    content: '';
+    display: block;
+    height: 10px;
+    width: 10px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: calc(1.9em/2 + .3em);
+    background-color: var(--false);
+    border-radius: .2em;
+    transition: .3s ease;
+}
+
+input[type=checkbox]:checked::before {
+    background-color: var(--true);
+    left: calc(100% - (1.9em/2 + .3em));
+}
+
+.div-strong-bar{
+    padding-bottom: 5px;
+    background-color: white;
+}
+
+
+
+#btnGen{
+    width: 100%;
+    height: 10%;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: black;
+    background-color: #4CAF50;
+}
+
+h6{
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+span{
+    background-color: white;
+    color: black;
+}
+
+.repsonse{
+    background-color: white;
+    color: black;
+}
+
+.generated-password {
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 8px;
+    font-family: monospace;
+}
+
+.copy-btn {
+    background-color: white;
+    color: black;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    transition: transform 0.2s ease;
+}
+
+svg{
+    background-color: white;
+}
+.copy-btn:hover {
+    transform: scale(1.1);
+}
+
+#board{
+    background-color: white;
+}
+
