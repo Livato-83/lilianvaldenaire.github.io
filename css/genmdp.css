@@ -221,3 +221,17 @@ svg{
     background-color: white;
 }
 
+.pForce{
+    background-color: white;
+    color: black;
+    font-size: 12px;
+    display:flex;
+    justify-content: center;
+}
+
+.generated-password {
+    margin-bottom: 15px;
+}
+.strength-bar {
+    transition: background 0.3s ease;
+}

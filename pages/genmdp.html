@@ -35,7 +35,7 @@
                     <p id="p-form">(Les valeurs sont d'origine sur "oui")</p>
                     <div class="form-group">
                         <label>Nombre de caractères</label>
-                        <input type="number" id="carac" min="8" max="50" placeholder="8">
+                        <input type="number" id="carac" min="8" max="50" value="8">
                     </div>
                     <div class="form-group">
                         <label>Voulez-vous des majuscules ?</label>
@@ -61,20 +61,11 @@
                             <input type="checkbox" checked="" id="caracSpe">
                         </label>                    
                     </div>
-                    <!-- <div class="div-strong-bar">
-                        <label id="strong-bar">Dureté du mot de passe généré:</label>
-                    </div>
-                    <span>
-                        a
-                        <div class="box-strong-bar"></div>
-                        <div class="box-strong-bar"></div>
-                        <div class="box-strong-bar"></div>
-                        <div class="box-strong-bar"></div>
-                    </span> -->
                     <button type="button" onclick="GenMdp()" id="btnGen">Générer un mot de passe</button>
                     <span class="response">
                         <h6>Mots de passe générés :</h6>
                         <div id="board"></div>
+                        <div id="board_force"></div>
                     </span>
                 </form>
             </main>
