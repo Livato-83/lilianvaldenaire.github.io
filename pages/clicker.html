@@ -9,7 +9,7 @@
         <title>Générateur de mots de passes</title>
         <link rel="icon" href="../favicon.ico">
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-        <link href="../css/genmdp.css" rel="stylesheet">
+        <link href="../css/clicker.css" rel="stylesheet">
     </head>
     <body>
         <div class="top">
@@ -30,5 +30,19 @@
                 <li><a href="../pages/contact.html">Contacts</a></li>
             </ul>
         </nav>
+        <main>
+            <section id="clickable-zone">
+                <div class="zone1">
+                    <button id="cookie">Cliquez ici!</button>
+                </div>
+            </section>
+            <section id="upgrades">
+                <button id="batClicker" onclick="buyAutoClicker(nbrClicks, clicksPrice)">Clicker auto</button>
+            </section>
+            <section id="batiments">
+                <button id="batGrandma" >Grand mère</button>
+            </section>
+        </main>
+        <script src="../js/clicker.js"></script>
     </body>
 </html>
