@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
-*{
-    color: white;
-background-color: #0B162C;
-}
+
 * :not(i){
     font-family: "Fredoka", sans-serif;
 
 }
+
+body{
+    color: white;
+    background-color: #0B162C;
+}
+
 h1 {
     margin: 0; 
     padding: 0; 
@@ -45,7 +48,6 @@ p#titre{
     background-color: #3B556D;
     overflow: hidden;
     transition: width 0.3s ease;
-
 }
 nav ul {
     list-style: none;
@@ -80,9 +82,80 @@ nav ul li a:hover {
     display: flex;
     justify-content: center;
 }
+.cookieZone{
+    text-align: center;
+    font-size: 22px;
+    float: left;
+    margin-left: 5%;
+}
+button{
+    border: none;
+    color: white;
+    background-color: #0B162C;
 
-#cookie{
-    width: 500px;
-    height: 500px;
+}
+
+.showBats{
+    width: 60%;
+    margin-left: 27%;
+    margin-right: -27%;
+}
+
+#showBatClickers{
+    height: 100px;
+    width: auto;
     background-color: red;
+}
+
+#showBatGrandma{
+    height: 100px;
+    width: auto;
+    background-color: rgb(128, 86, 31);
+}
+#showBatFarm{
+    height: 100px;
+    width: auto;
+    background-color: rgb(255, 123, 0);
+}
+
+.batiments{
+    float: right;
+    text-align: right;
+}
+#cookie{
+    background-color:hsla(0, 0%, 0%, 0) ;
+    border-radius: 175px;
+    border: none;
+    cursor: pointer;
+    
+}
+#cookie_img{
+    border-radius: 125px;
+}
+#success-popup {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333 !important;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 12px;
+    font-size: 16px;
+    opacity: 0;
+    transition: opacity 0.5s, bottom 0.5s;
+    z-index: 9999;
+    pointer-events: none;
+}
+
+#success-popup.show {
+    opacity: 1;
+    bottom: 50px;
+}
+
+strong #success-title{
+    background-color: #333;
+}
+span #success-description{
+    background-color: #333;
 }

@@ -31,18 +31,49 @@
             </ul>
         </nav>
         <main>
-            <section id="clickable-zone">
-                <div class="zone1">
-                    <button id="cookie">Cliquez ici!</button>
-                </div>
-            </section>
-            <section id="upgrades">
-                <button id="batClicker" onclick="buyAutoClicker(nbrClicks, clicksPrice)">Clicker auto</button>
-            </section>
-            <section id="batiments">
-                <button id="batGrandma" >Grand mère</button>
-            </section>
+            <div class="cookieZone">
+                <section id="count_clicks">
+                    <!-- Insertion des nbrs de clicks (function showClicks) -->
+                </section>
+                <section id="clickable-zone">
+                    <div class="zone1">
+                        <button id="cookie"><img src="../images/cookie.png" alt="Cookie" id="cookie_img"></button>
+                    </div>
+                </section>
+            </div>
+            <div class="batiments">
+                <section>
+                    <button onclick="reset()">Réinitialiser les clics</button>
+                </section>
+                <section>
+                    <button id="batClicker" onclick="buyAutoClicker()">Clicker auto</button>
+                </section>
+                <section>
+                    <button id="batGrandma" onclick="buyGrandma()">Grand mère</button>
+                </section>
+                <section>
+                    <button id="batFarm" onclick="buyFarm()">Ferme</button>
+                </section>
+                <section>
+                    <button id="sauvegarde" onclick="sauvegarderJeu()">sauvegarderJeu</button>
+                </section>
+            </div>
+            <div class="showBats">
+                <section id="showBatClickers">
+                    
+                </section>
+                <section id="showBatGrandma">
+
+                </section>
+                <section id="showBatFarm">
+
+                </section>
+            </div>
         </main>
+        <div id="success-popup">
+            <strong id="success-title"></strong><br>
+            <span id="success-description"></span>
+        </div>
         <script src="../js/clicker.js"></script>
     </body>
 </html>
