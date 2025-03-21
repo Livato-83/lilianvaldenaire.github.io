@@ -89,10 +89,16 @@ nav ul li a:hover {
     margin-left: 5%;
 }
 button{
+    font-size: 15px;
     border: none;
     color: white;
     background-color: #0B162C;
+    margin: 3px;
 
+}
+
+#nber_clicks_per_second{
+    font-size: 13px;
 }
 
 .showBats{
@@ -116,6 +122,30 @@ button{
     height: 100px;
     width: auto;
     background-color: rgb(255, 123, 0);
+}
+
+#showBatMine{
+    height: 100px;
+    width: auto;
+    background-color: rgb(107, 107, 107);
+}
+
+#showBatFactory{
+    height: 100px;
+    width: auto;
+    background-color: rgb(75, 20, 20);
+}
+
+#showBatBank{
+    height: 100px;
+    width: auto;
+    background-color: rgb(34, 102, 34);
+}
+
+#showBatTemple{
+    height: 100px;
+    width: auto;
+    background-color: rgb(255, 255, 255);
 }
 
 .batiments{
