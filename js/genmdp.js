@@ -70,10 +70,6 @@ async function GenMdp(){
             motDePasse += currentPool[Math.floor(Math.random() * currentPool.length)];
         }
         let force = CalcForceMdp(nbrCarac, majs, minus, numbers, caracSpe, motDePasse);
-        // const compromis = await isCompromisedMdp(motDePasse);
-        // if (compromis){
-        //     force -= 2;
-        // };
         let board = document.getElementById("board");
         let container = document.createElement("div");
         container.classList.add("generated-password");
@@ -132,3 +128,5 @@ async function GenMdp(){
     };
 
 };
+
+}
